@@ -1,0 +1,6 @@
+name: Custom Block
+core: 8.x
+package: custom
+type: module
+dependencies:
+  - block

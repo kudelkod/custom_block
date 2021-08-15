@@ -1,0 +1,19 @@
+
+<div>
+  <p>Account Name: {{ user_name }}</p>
+  <a href = "/user/{{ user_id }}">Edit</a>
+</div>
+
+<div>
+  <p>Count Products: {{ count }}</p>
+  <a href="/products/{{ store_obj[0].store_id }}">See</a>
+</div>
+
+<div>
+  <p>Store: {{ store_obj[0].name }}</p>
+  <a href="/store/{{ store_obj[0].store_id }}">
+    Edit
+  </a>
+</div>
+
+
